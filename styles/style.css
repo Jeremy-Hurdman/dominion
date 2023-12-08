@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 100px;
+    width: 75px;
+    background-color: red;
+    border: solid black 2px;
+    border-radius: 7px;
+}
+
+#base-shop {
+    margin: 40px 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bottom-row {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+#player-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hand {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 0 10px;
+}
